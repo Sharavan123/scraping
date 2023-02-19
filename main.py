@@ -416,6 +416,9 @@
 #     print(c,end=' ')
 #     a=b
 #     b=c
+
+for i in range(1,11):
+    print(i*2)
     
 
 
