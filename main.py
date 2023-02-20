@@ -443,13 +443,13 @@
 # l=[45,75,98,36,52,68]
 # results(l)
 
-l=[1,2,3,4]
-s='welcome'
+# l=[1,2,3,4]
+# s='welcome'
 # l.extend(s)
 # print(l)
-for i in s:
-    l.append(i)
-print(l)
+# for i in s:
+#     l.append(i)
+# print(l)
 
 
 
