@@ -421,27 +421,27 @@
 #     print(i*2)
 
 
-def finalresults(result):
-    def dectintion(marks):
-        for m in marks:
-            if m>=75:
-                print("dectintion")
-        result(marks)
-    return dectintion
+# def finalresults(result):
+#     def dectintion(marks):
+#         for m in marks:
+#             if m>=75:
+#                 print("dectintion")
+#         result(marks)
+#     return dectintion
         
-@ finalresults
-def results(marks):
-    for m in marks:
-        if m>=33:
-            pass
-        else:
-            print("failed")
-            break
-    else:
-        print("pass")
+# @ finalresults
+# def results(marks):
+#     for m in marks:
+#         if m>=33:
+#             pass
+#         else:
+#             print("failed")
+#             break
+#     else:
+#         print("pass")
 
-l=[45,75,98,36,52,68]
-results(l)
+# l=[45,75,98,36,52,68]
+# results(l)
 
 
 
