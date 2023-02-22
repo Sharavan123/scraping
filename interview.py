@@ -15,19 +15,19 @@
 
 # Python program to print all Prime numbers in an Interval
 
-def prime(n):
-    list=[]
-    for i in n:
-        if i>1:
-            for j in range(2,i//2+1):
-                if i%j==0:
-                    break
-            else:
-                list.append(i)
-    return list
+# def prime(n):
+#     list=[]
+#     for i in n:
+#         if i>1:
+#             for j in range(2,i//2+1):
+#                 if i%j==0:
+#                     break
+#             else:
+#                 list.append(i)
+#     return list
 
-l=[-1,-5,0,-6,4,7,-10,-11,-7,7,11,13,9,1,-17]
-print(prime(l))
+# l=[-1,-5,0,-6,4,7,-10,-11,-7,7,11,13,9,1,-17]
+# print(prime(l))
 
 # Python Program for n-th Fibonacci number
 
